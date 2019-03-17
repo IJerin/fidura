@@ -1,0 +1,946 @@
+{
+    "food": {
+            "Bröd-skorpor-kex": {
+            "Bröd": {
+                "Mjukt bröd": {
+                    "Ljust bröd": {
+                        "Ljus fralla": {
+                            "img" : "ljusHelFralla",
+                            "measureType": "Antal"
+                            
+                        } ,
+                        "Limpa": {
+                            "img": "limpa",
+                            "measureType": "Antal skivor"
+                        },
+                        "Naanbröd-pitabröd": {
+                            "img": "naan",
+                            "measureType": "Antal skivor"
+                        } ,
+                        "Toastbröd": {
+                            "img": "toast",
+                            "measureType": "Antal skivor"
+                        } ,
+                        "Ljust tortillabröd": {
+                            "img": "ljustTortilla",
+                            "measureType": "Antal"
+                        },
+                        "Fullkornstortillabröd": {
+                            "img": "fullkornTortilla",
+                            "measureType": "Antal"
+                        } ,
+                        "Tunnbröd": {
+                            "img": "mjuktTunn",
+                            "measureType": "Antal"
+                        }
+                    },
+                    "Mellangrovt bröd (tex polarrågkaka, grov baguette, kavring, Lingongrova)": {
+                        "Bröd (fibermängd 4-5 %)Tex polarrågkaka, grov baguette, kavring)": {
+                            "img": "brod4to5Percent",
+                            "measureType": "Antal skivor"
+                        },
+                        "Bröd, fibermängd 6-7 % Tex Lingrova, Gott gräddat": {
+                            "img": "brod6to7",
+                            "measureType": "Antal skivor"
+                        }
+                    },
+                    "Grovt bröd (fibermängd 8-10 %) Tex pumpernickel": {
+                        "img": "pumper",
+                        "measureType": "Antal skivor"
+                    }
+                },
+                "Hårt bröd": {
+                    "Hårt tunnbröd": {
+                        "img": "hartTunnbrod",
+                        "measureType": "Antal skivor"
+                    },
+                    "Grovt knäckebröd (fiberinnehåll 14-16 %) tex Wasa sport, husman, råg-rut": {
+                        "img": "knackBrod",
+                        "measureType": "Antal skivor"
+                    },
+                    "Ljust knäckebröd (fiberinnehåll 6 %) tex Wasa frukost": {
+                        "img": "wasafruk",
+                        "measureType": "Antal skivor"
+                    },
+                    "Ljust knäckebröd (fiberinnehåll 7 %) tex kanelknäcke": {
+                        "img": "kanelknacke",
+                        "measureType": "Antal skivor"
+                    }
+                }
+            },
+            "skorpor": {
+                "Fullkornsskorpa": {
+                    "img": "fullkorn",
+                    "measureType": "Antal"
+                },
+                "Ljus veteskorpa": {
+                    "img": "ljusVet",
+                    "measureType": "Antal"
+                }
+            },
+            "kex": {
+                "Digestivekex": {
+                    "img":"digEx",
+                    "measureType": "Antal"
+                } ,
+                "Digestivekex fullkorn": {
+                    "img": "digExFull",
+                    "measureType": "Antal"
+                },
+                "Havrekex fullkorn tex HobNobs": {
+                    "img": "havre",
+                    "measureType": "Antal"
+                }
+            }
+        },
+        "Frukt-bär": {
+            "frukt": {
+                "Ananas": {
+                    "img":"ananas",
+                    "measureType": "Antal skivor"
+                },
+                "Banana": {
+                    "img":"banana",
+                    "measureType": "Antal"
+                },
+                "Mango": {
+                    "img": "mango",
+                    "measureType": "Antal"
+                },
+                "Melon": {
+                    "img": "melon",
+                    "measureType": "Antal skivor"
+                },
+                "Passionsfrukt": {
+                    "img": "passion",
+                    "measureType": "Antal"
+                },
+                "Vindruvor": {
+                    "img": "vindruvor",
+                    "measureType": "Antal dl"
+                },
+                "Grapefrukt": {
+                    "img": "grapeFruikt",
+                    "measureType": "Antal"
+                },
+                "Apelsin": {
+                    "img": "apelsin",
+                    "measureType": "Antal"
+                },
+                "Clementin": {
+                    "img": "clementen",
+                    "measureType": "Antal"
+                },
+                "Granatäpple": {
+                    "img": "granat",
+                    "measureType": "Antal"
+                },
+                "Kiwi": {
+                    "img": "kiwi",
+                    "measureType": "Antal"
+                },
+                "Nektarin-persika": {
+                    "img": "nektarin",
+                    "measureType": "Antal"
+                },
+                "plommon": {
+                    "img": "plommon",
+                    "measureType": "Antal"
+                },
+                "Päron": {
+                    "img": "paron",
+                    "measureType": "Antal"
+                },
+                "Sharonfrukt": {
+                    "img": "sharon",
+                    "measureType": "Antal"
+                },
+                "Torkad frukt": {
+                    "img": "torkad",
+                    "measureType": "Antal dl"
+                },
+                "Äpple med skal": {
+                    "img": "appleMedSkul",
+                    "measureType": "Antal dl"
+                },
+                "Äpple utan skal": {
+                    "img": "AppleUtanSkal",
+                    "measureType": "Antal dl"
+                },
+                "Aprikos": {
+                    "img": "apriko",
+                    "measureType": "Antal"
+                }
+            },
+            "Bär": {
+                "Björnbär": {
+                    "img": "bjornba",
+                    "measureType": "Antal dl"
+                },
+                "Blåbär": {
+                    "img": "blabar",
+                    "measureType": "Antal dl"
+                },
+                "Hallon": {
+                    "img": "hallon",
+                    "measureType": "Antal dl"
+                },
+                "Hjortron": {
+                    "img": "hjotron",
+                    "measureType": "Antal msk"
+                },
+                "Jordgubbar": {
+                    "img": "jordgubbar",
+                    "measureType": "Antal dl"
+                },
+                "Körsbär": {
+                    "img": "korsbar",
+                    "measureType": "Antal dl"
+                },
+                "Lingon": {
+                    "img": "lingo",
+                    "measureType": "Antal msk"
+                },
+                "Röda vinbär": {
+                    "img": "rodaVinbar",
+                    "measureType": "Antal msk"
+                },
+                "Svarta vinbär": {
+                    "img": "svartaVinbar",
+                    "measureType": "Antal msk"
+                }
+            }
+        },
+        "Grönsaker-baljväxter-groddar-rotfrukter-potatis": {
+            "BaljväxterTex bönor, ärter, linser": {
+                "Bönor, kokta (tex kidney--svarta--vita bönor)": {
+                    "Bönor, kokta (tex bruna, kidney, svarta, vita)": {
+                        "Bönor kokta": {
+                            "img": "bonorKokta",
+                            "measureType": "Antal dl"
+                        },
+                        "Bönor i sås-konserverade tex bruna-svarta-vita-kidneybönor": {
+                            "img": "bonor",
+                            "measureType": "Antal dl"
+                        }
+                    },
+                    "Gröna bönor": {
+                        "Bondbönor-sojabönor": {
+                            "img": "bondBonor",
+                            "measureType": "Antal dl"
+                        },
+                        "Brytbönor-haricots verts": {
+                            "img": "brytBonor",
+                            "measureType": "Antal dl"
+                        }
+                    }
+                },
+                "Linser, kokta (tex beluga-gröna-röda linser)": {
+                    "img": "linserKokta",
+                    "measureType": "Antal dl"
+                },
+                "Ärtor (tex gröna-gula-kikärtor)": {
+                    "Gröna ärter (kokta)": {
+                        "img": "gronaAerter",
+                        "measureType": "Antal dl"
+                    },
+                    "Gula ärter-kikärtor (kokta)": {
+                        "img": "gulaArter",
+                        "measureType": "Antal dl"
+                    },
+                    "Kikärtor (konserv)": {
+                        "img": "kikartor",
+                        "measureType": "Antal dl"
+                    }
+                }
+            },
+            "Grönsaker-rotfrukter-potatis": {
+                "Avokado": {
+                    "img": "avokado",
+                    "measureType": "Antal dl"
+                },
+                "Broccoli-blomkål-brysselkål": {
+                    "img": "brocolli",
+                    "measureType": "Antal dl"
+                },
+                "Grönsallad-ruccola-spenat":{
+                    "img": "gronsallad",
+                    "measureType": "Antal dl"
+                } ,
+                "Kålrot-palsternacka-rotselleri": {
+                    "img": "karlotCollage",
+                    "measureType": "Antal dl"
+                },
+                "Gul-röd lök": {
+                    "img": "onion",
+                    "measureType": "Antal msk"
+                },
+                "Purjolök": {
+                    "img": "purjolok",
+                    "measureType": "Antal msk"
+                },
+                "Majs": {
+                    "img": "majs",
+                    "measureType": "Antal dl"
+                },
+                "Morot": {
+                    "img": "morot",
+                    "measureType": "Antal"
+                },
+                "paprika": {
+                    "img": "paprika",
+                    "measureType": "Antal skivor"
+                },
+                "Potatis": {
+                    "img": "potatis",
+                    "measureType": "Antal dl"
+                },
+                "Rödbeta": {
+                    "img": "rodbeta",
+                    "measureType": "Antal"
+                },
+                "Oliver": {
+                    "img":"olive" ,
+                    "measureType": "Antal dl"
+                },
+                "Konserverad svamp": {
+                    "img": "konser",
+                    "measureType": "Antal dl"
+                },
+                "Färsk svamp": {
+                    "img": "farsk",
+                    "measureType": "Antal dl"
+                },
+                "Färsk tomat": {
+                    "img": "tomatFarsk",
+                    "measureType": "Antal"
+                },
+                "Krossad tomat konserv": {
+                    "img": "krossadTomat",
+                    "measureType": "Antal dl"
+                },
+                "Alfaalfagroddar-linsgroddar": {
+                    "img": "alfaal",
+                    "measureType": "Antal dl"
+                },
+                "Groddar av mungbönor-sojabönor": {
+                    "img": "groddar",
+                    "measureType": "Antal dl"
+                },
+                "Aubergine": {
+                    "img": "aurbergine",
+                    "measureType": "Antal dl"
+                },
+                "Fänkål-rödkål-vitkål": {
+                    "img": "fankalonor",
+                    "measureType": "Antal dl"
+                },
+                "Squash": {
+                    "img": "squash",
+                    "measureType": "Antal dl"
+                }
+            }
+        },
+        "Nötter-frön": {
+            "Nötter-mandel": {
+                "Jordnötssmör": {
+                    "img": "jord",
+                    "measureType": "Antal tsk"
+                },
+                "Pistagenötter": {
+                    "img": "pista",
+                    "measureType": "Antal msk"
+                },
+                "Valnötter": {
+                    "img": "valnotte",
+                    "measureType": "Antal msk"
+                },
+                "Cashewnötter-hasselnötter-jordnötter-paranötter-sötmandel": {
+                    "img": "cashewnotter",
+                    "measureType": "Antal msk"
+                }
+            },
+            "Frön": {
+                "Chiafrön": {
+                    "img": "chiafron",
+                    "measureType": "Antal msk"
+                },
+                "Linfrön": {
+                    "img": "linfron",
+                    "measureType": "Antal msk"
+                },
+                "Pumpakärnor": {
+                    "img": "pumpa",
+                    "measureType": "Antal msk"
+                },
+                "Sesamfrön": {
+                    "img": "sesam",
+                    "measureType": "Antal msk"
+                },
+                "Solrosfrön": {
+                    "img": "solro",
+                    "measureType": "Antal msk"
+                },
+                "Psylliumfröskal": {
+                    "img": "psy",
+                    "measureType": "Antal msk"
+                },
+                "Psylliumfrö (loppfrö)": {
+                    "img": "psyo",
+                    "measureType": "Antal msk"
+                }
+            }
+        },
+        "Pasta-gryn-gröt-flingor-mjöl-müsli": {
+            "Pasta-bulgur-couscous-quinoa": {
+                "Bulgur": {
+                    "Bulgur (kokt)": {
+                        "img": "bulgur",
+                        "measureType": "Antal dl"
+                    },
+                    "Fullkornsbulgur (kokt)": {
+                        "img": "fullkornBulgur",
+                        "measureType": "Antal dl"
+                    }
+                },
+                "Couscous": {
+                    "Couscous (kokt)": {
+                        "img": "cous",
+                        "measureType": "Antal dl"
+                    },
+                    "Fullkornscouscous (kokt)":{
+                        "img": "fullkornCous" ,
+                        "measureType": "Antal dl"
+                    } 
+                },
+                "Quinoa (kokt)": {
+                    "img": "quinoa",
+                    "measureType": "Antal dl"
+                },
+                "Pasta": {
+                    "Vit pasta (kokt)": {
+                        "img": "vitPasta",
+                        "measureType": "Antal dl"
+                    },
+                    "Fullkornspasta (kokt)": {
+                        "img": "fullKornPasta",
+                        "measureType": "Antal dl"
+                    }
+                },
+                "Ris": {
+                    "Basmatiris": {
+                        "img": "basmatiRis",
+                        "measureType": "Antal dl"
+                    },
+                    "Jasminris": {
+                        "img": "jasminRis",
+                        "measureType": "Antal dl"
+                    },
+                    "Långkornigt ris parbioled":{
+                        "img": "longKornRis",
+                        "measureType": "Antal dl"
+                    } ,
+                    "Fullkornsris-råris (kokt)": {
+                        "img": "ris",
+                        "measureType": "Antal dl"
+                    }
+                }
+            },
+            "Gryn-gröt-kli-mjöl": {
+                "Gryn": {
+                    "Havregryn": {
+                        "img": "havregry",
+                        "measureType": "Antal dl"
+                    },
+                    "Fiberhavregryn": {
+                        "img": "fiberHavregry",
+                        "measureType": "Antal dl"
+                    }
+                },
+                "Gröt": {
+                    "Havregrynsgröt": {
+                        "img": "grynGrot",
+                        "measureType": "Antal dl"
+                    },
+                    "Mannagrynsgröt": {
+                        "img": "mann",
+                        "measureType": "Antal dl"
+                    },
+                    "Rågmjölsgröt": {
+                        "img": "rag",
+                        "measureType": "Antal dl"
+                    },
+                    "Risgrynsgröt": {
+                        "img": "risgryn",
+                        "measureType": "Antal dl"
+                    }
+                },
+                "kli": {
+                    "Havrekli": {
+                        "img": "havrekli",
+                        "measureType": "Antal msk"
+                    },
+                    "Vetekli": {
+                        "img": "vetekli",
+                        "measureType": "Antal msk"
+                    },
+                    "Kruskakli":{
+                        "img": "kruskakli",
+                        "measureType": "Antal msk"
+                    } 
+                },
+                "Mjöl": {
+                    "Vitt mjöltex bovetemjöl, mandelmjöl rågsikt, vetemjöl": {
+                        "Mandelmjöl": {
+                            "img": "mandelmjol",
+                            "measureType": "Antal dl"
+                        },
+                        "Vetemjöl":{
+                            "img": "vetemjol",
+                            "measureType": "Antal dl"
+                        } ,
+                        "Vetemjöl special-Bovetemjöl":{
+                            "img": "vetemSpecial",
+                            "measureType": "Antal dl"
+                        } ,
+                        "Rågsikt": {
+                            "img": "ragsikt",
+                            "measureType": "Antal dl"
+                        }
+                    },
+                    "Finmalet fullkornmjöl tex finmalet vetemjöl-rågmjöl": {
+                        "Finmalet fullkornsvetemjöl": {
+                            "img": "finmalet",
+                            "measureType": "Antal dl"
+                        },
+                        "Finmalet rågmjöl": {
+                            "img": "finmaletRagmjol",
+                            "measureType": "Antal dl"
+                        }
+                    },
+                    "Grovmalet fullkornsmjöl tex grahamsmjöl, grovmalet rågmjöl": {
+                        "Grovmalet rågmjöl": {
+                            "img": "grovmalet",
+                            "measureType": "Antal dl"
+                        },
+                        "Grahamsmjöl": {
+                            "img": "grahamsmjol",
+                            "measureType": "Antal dl"
+                        }
+                    }
+                },
+                "Välling": {
+                    "Fullkornsvälling":{
+                        "img": "valling",
+                        "measureType": "Antal dl"
+                    } 
+                }
+            },
+            "Flingor-müsli": {
+                "Cornflakes": {
+                    "img": "cornflakes",
+                    "measureType": "Antal dl"
+                },
+                "Fullkornsflingor Tex All-bran": {
+                    "img": "fullkornsflingor",
+                    "measureType": "Antal dl"
+                },
+                "Havrefras-rågfras": {
+                    "img": "havrefras",
+                    "measureType": "Antal dl"
+                },
+                "Müsli Tex Crunchy, Start": {
+                    "img": "musli",
+                    "measureType": "Antal dl"
+                },
+                "Müsli med blandade gryner": {
+                    "img": "musligryn",
+                    "measureType": "Antal dl"
+                },
+                "Special K": {
+                    "img": "specialK",
+                    "measureType": "Antal dl"
+                },
+                "Rågflingor": {
+                    "img": "ragflingor",
+                    "measureType": "Antal dl"
+                }
+            }
+        },
+        "Snacks": {
+            "Popcorn": {
+                "img": "popcorn",
+                "measureType": "Antal dl"
+            },
+            "Potatischips": {
+                "img": "potatochips",
+                "measureType": "Antal dl"
+            },
+            "Majschips (nachos)": {
+                "img": "majship",
+                "measureType": "Antal dl"
+            }
+        },
+        "Recept (endast gjorda enligtrecepthäftet)": {
+            "Smoothie med banan och bär": {
+                "img": "smoothie",
+                "measureType": "Antal portioner"
+            },
+            "Overnight oats (1 dl havregryn)Inget tillbehör": {
+                "img": "overnightOats",
+                "measureType": "Antal portioner"
+            },
+            "Overnight oats med chiafrön (1 dl havregryn + 1 msk chiafrön) Inget tillbehör":{
+                "img": "overNightChiafron",
+                "measureType": "Antal portioner"
+            } ,
+            "Chiapudding (3 msk chiafrön)Inget tillbehör": {
+                "img": "chiapudding",
+                "measureType": "Antal portioner"
+            },
+            "Klassiska pannkakorInget tillbehör":{
+                "img": "klassiska",
+                "measureType": "Antal pannakor"
+            } ,
+            "Bananpannkakor Inget tillbehör": {
+                "img": "bananPanKakor",
+                "measureType": "Antal pannakor"
+            },
+            "Ugnspannkaka Inget tillbehör": {
+                "img": "ugnaspann",
+                "measureType": "Antal portioner"
+            },
+            "Fransk omelett med tomat och spenat": {
+                "img": "fransOmelett",
+                "measureType": "Antal portioner"
+            },
+            "Jordgubbskräm": {
+                "img": "jordkram",
+                "measureType": "Antal portioner"
+            },
+            "Äppelsoppa": {
+                "img": "appelsoppa",
+                "measureType": "Antal portioner"
+            },
+            "Tomatsoppa Inget tillbehör": {
+                "Med lök": {
+                    "img": "tomatoMedlok",
+                    "measureType": "Antal portioner"
+                },
+                "Utan lök": {
+                    "img": "tomatoMedlok",
+                    "measureType": "Antal portioner"
+                }
+            },
+            "Morotssoppa Inget tillbehör ": {
+                "Med lök ":{
+                    "img": "medLok",
+                    "measureType": "Antal portioner"
+                } ,
+                "Utan lök ":{
+                    "img": "medLok",
+                    "measureType": "Antal portioner"
+                } 
+            },
+            "Pestopasta med kyckling, tomater & spenat": {
+                "img": "pesto",
+                "measureType": "Antal portioner"
+            },
+            "Bakad potatis med röra (ca 250 g potatis)":{
+                "img": "bakedPotatis",
+                "measureType": "Antal portioner"
+            } ,
+            "Krämig potatissallad": {
+                " Med lök ":{
+                    "img": "kramig",
+                    "measureType": "Antal portioner"
+                },
+                " Utan lök ": {
+                    "img": "kramig",
+                    "measureType": "Antal portioner"
+                }
+            },
+            "Potatismos grundrecept": {
+                "img": "potatismos",
+                "measureType": "Antal portioner"
+            },
+            "Potatis- och broccoli-blomkålsmos": {
+                "img": "potatic_och",
+                "measureType": "Antal portioner"
+            },
+            "Potatis- och rotsellerimos": {
+                "img": "potatismos",
+                "measureType": "Antal portioner"
+            }
+        }
+    },
+    "user" : {
+        "TlkApTdmFiUWpxNoWHhtGaG6xV02" : {
+          "14-1-2019" : {
+            "foodItem" : {
+              "-LWrEPgSIzQhPiaYIx_0" : {
+                "amount" : "12",
+                "name" : "Björnbär"
+              },
+              "-LWrERNkh3T4RFJIZM8t" : {
+                "amount" : "23",
+                "name" : "Blåbär"
+              },
+              "-LWrESj9nMhX5IICUVxB" : {
+                "amount" : "12",
+                "name" : "Körsbär"
+              }
+            },
+            "totalNutrition" : {
+              "Fibrer" : 76.61999999999999,
+              "Löslig" : 13.566600000000001,
+              "Olöslig" : 54.5394
+            }
+          },
+          "15-1-2019" : {
+            "foodItem" : {
+              "-LWrDlvJ1UNIcsRVMkqa" : {
+                "amount" : "12",
+                "name" : "Valnötter"
+              },
+              "-LWrDqG8avkm8a3duIqa" : {
+                "amount" : "12",
+                "name" : "Linser, kokta (tex beluga-gröna-röda linser)"
+              },
+              "-LWrDs12G8-p5LMvSWp-" : {
+                "amount" : "23",
+                "name" : "Gröna ärter (kokta)"
+              },
+              "-LWrDu9_8LywUpA2MKTm" : {
+                "amount" : "32",
+                "name" : "Gula ärter-kikärtor (kokta)"
+              }
+            },
+            "totalNutrition" : {
+              "Fibrer" : 393.724,
+              "Löslig" : 139.88212,
+              "Olöslig" : 260.54459999999995
+            }
+          },
+          "16-1-2019" : {
+            "foodItem" : {
+              "-LWrDQ3VSGVjStyFEizd" : {
+                "amount" : "11",
+                "name" : "Björnbär"
+              },
+              "-LWrDSaBoyuLZ-uVIujk" : {
+                "amount" : "23",
+                "name" : "Blåbär"
+              },
+              "-LWrDThOosAHdvc81dMo" : {
+                "amount" : "33",
+                "name" : "Hallon"
+              }
+            },
+            "totalNutrition" : {
+              "Fibrer" : 124.28999999999999,
+              "Löslig" : 16.2015,
+              "Olöslig" : 104.2941
+            }
+          },
+          "17-1-2019" : {
+            "foodItem" : {
+              "-LWrDaUlbOLTiRrnN2B6" : {
+                "amount" : "12",
+                "name" : "Müsli Tex Crunchy, Start"
+              },
+              "-LWrDe-YjgRIj4auAwZu" : {
+                "amount" : "23",
+                "name" : "Cornflakes"
+              },
+              "-LWrDfNV1WPvl38kq4nv" : {
+                "amount" : "34",
+                "name" : "Müsli med blandade gryner"
+              }
+            },
+            "totalNutrition" : {
+              "Fibrer" : 164.42,
+              "Löslig" : 20.666999999999998,
+              "Olöslig" : 102.3742
+            }
+          },
+          "18-1-2019" : {
+            "foodItem" : {
+              "-LWXKPlkwTuGQoX8ASzp" : {
+                "amount" : "12",
+                "name" : "Björnbär"
+              },
+              "-LWXKUVK3Sts34h_TBXJ" : {
+                "amount" : "12",
+                "name" : "Blåbär"
+              },
+              "-LWXKX9Tc7ESSLVVy7MV" : {
+                "amount" : "43",
+                "name" : "Hallon"
+              }
+            }
+          },
+          "19-1-2019" : {
+            "foodItem" : {
+              "-LWrEa5tfXbHN-m9cW5c" : {
+                "amount" : "2",
+                "name" : "Potatischips"
+              },
+              "-LWrEbSy5B5BbguwkK-W" : {
+                "amount" : "1",
+                "name" : "Popcorn"
+              },
+              "-LWrEv4PiSDftcJmc0Ws" : {
+                "amount" : "11",
+                "name" : "Alfaalfagroddar-linsgroddar"
+              },
+              "-LWrEwOh46Y09wSuiKM4" : {
+                "amount" : "34",
+                "name" : "Broccoli-blomkål-brysselkål"
+              },
+              "-LWrExrj7dkotLXTddam" : {
+                "amount" : "23",
+                "name" : "Fänkål-rödkål-vitkål"
+              }
+            },
+            "totalNutrition" : {
+              "Fibrer" : 95.233,
+              "Löslig" : 32.96884,
+              "Olöslig" : 56.80233
+            }
+          },
+          "21-1-2019" : {
+            "foodItem" : {
+              "-LWl5xsdUoolKZaLEFC8" : {
+                "amount" : "23",
+                "name" : "Chiafrön"
+              },
+              "-LWl5z-DQ5hzHi98mzDx" : {
+                "amount" : "33",
+                "name" : "Linfrön"
+              }
+            },
+            "totalNutrition" : {
+              "Fibrer" : 166.5073,
+              "Löslig" : 4.995218999999999,
+              "Olöslig" : 91.579015
+            }
+          },
+          "22-1-2019" : {
+            "foodItem" : {
+              "-LWr4yLu2o31hbb2W-GZ" : {
+                "amount" : "12",
+                "name" : "Grovt knäckebröd (fiberinnehåll 14-16 %) tex Wasa sport, husman, råg-rut"
+              },
+              "-LWr4zZST8N9maSfq6Pk" : {
+                "amount" : "23",
+                "name" : "Ljust knäckebröd (fiberinnehåll 6 %) tex Wasa frukost"
+              },
+              "-LWr52HI2uO5GhZYiCOB" : {
+                "amount" : "1",
+                "name" : "Quinoa"
+              },
+              "-LWr552ZAYMl-XIJH3Bg" : {
+                "amount" : "11",
+                "name" : "Havregrynsgröt"
+              }
+            },
+            "totalNutrition" : {
+              "Fibrer" : 58.197199999999995,
+              "Löslig" : 8.43038,
+              "Olöslig" : 43.57932799999999
+            }
+          },
+          "24-1-2019" : {
+            "Gaser" : {
+              "-LX2MeGeSKLRXsoO_RMG" : {
+                "Annat" : 0,
+                "name" : [ "Inget besvärande", "Lite besvärande" ]
+              },
+              "-LX2MqvkEUZpItWblOkp" : {
+                "Annat" : 0,
+                "name" : [ "Inget besvärande", "Lite besvärande" ]
+              }
+            },
+            "Medeciner" : {
+              "-LX1gCSn1xlL9u7dOO7G" : {
+                "Annat" : "12",
+                "name" : [ "Dimetikon Meda", "Miniform", "Loperamid", "Imodium", "1-14 st (ca 1-2 st/dag)", "29-42 st (ca 2-4 st/dag)" ]
+              },
+              "-LX1gWf3uY00m5cMnDu5" : {
+                "Annat" : 0,
+                "name" : [ "Loperamid", "Dimor", "Miniform", "15-28 st (ca 2-4 st/dag)", "Över 43 st (mer än 6 st/dag)" ]
+              },
+              "-LX1hn_EBlW5iGTmc_bY" : {
+                "Annat" : 0,
+                "name" : [ "Dimor", "Loperamid", "Imodium", "1-14 st (ca 1-2 st/dag)" ]
+              },
+              "-LX5DVdGwdBMonq0cY3-" : {
+                "Annat" : 0,
+                "name" : [ "Loperamid", "Dimor", "Miniform", "15-28 st (ca 2-4 st/dag)" ]
+              }
+            },
+            "foodItem" : {
+              "-LX5D9Y5J5oDihgZpthH" : {
+                "amount" : "12",
+                "name" : "Majschips (nachos)"
+              },
+              "-LX5DBGbhtdVALeVKsAR" : {
+                "amount" : "33",
+                "name" : "Popcorn"
+              }
+            },
+            "lackage" : {
+              "-LX2DnqHWI0j45hCq0ns" : {
+                "st" : "12"
+              },
+              "-LX2ESWBncZJHnJAq6Hg" : {
+                "st" : "fdf"
+              },
+              "-LX5lOFFhYibq7OvJmvU" : {
+                "st" : "121"
+              }
+            },
+            "totalNutrition" : {
+              "Fibrer" : 61.964999999999996,
+              "Löslig" : 6.43608,
+              "Olöslig" : 49.964130000000004
+            }
+          },
+          "25-1-2019" : {
+            "Toalettbes" : {
+              "-LX2VEz2DoW-lw4fponJ" : {
+                "type" : [ "Type 1", "Type 2", "Type 5" ]
+              }
+            },
+            "lackage" : {
+              "-LX2VjfLlJtkm0lsC89n" : {
+                "st" : "qw"
+              }
+            }
+          },
+          "28-1-2019" : {
+            "foodItem" : {
+              "-LXPyQq9jykpnpmNNzw7" : {
+                "amount" : "12",
+                "name" : "Fullkornsskorpa"
+              },
+              "-LXPySWCl-tssqh4gTxK" : {
+                "amount" : "34",
+                "name" : "Ljus veteskorpa"
+              },
+              "-LXQ0nW0Pl7WQ63nvzBs" : {
+                "amount" : "33",
+                "name" : "Grovt knäckebröd (fiberinnehåll 14-16 %) tex Wasa sport, husman, råg-rut"
+              }
+            },
+            "totalNutrition" : {
+              "Fibrer" : 94.00229999999999,
+              "Löslig" : 15.866745,
+              "Olöslig" : 71.08210199999999
+            }
+          }
+        }
+      }
+    }
+    
